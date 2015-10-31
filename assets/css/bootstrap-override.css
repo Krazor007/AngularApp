@@ -5,7 +5,7 @@ This file contains all classes overridden from bootstrap
 ---------*/
 
 .container{
-	border:1px solid silver !important;
+	border:1px solid none !important;
 	height:100% !important;
 }
 
@@ -18,9 +18,7 @@ This file contains all classes overridden from bootstrap
 	font-weight: 700;
 }
 
-.navbar-nav{
-	float: right !important;
-}
+
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background: inherit !important;
@@ -28,3 +26,17 @@ This file contains all classes overridden from bootstrap
 }
 
 /*---------------------------Menu bar---------------------------*/
+
+
+
+/*---------------------------Body---------------------------*/
+
+
+p{
+	text-align: justify;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+}
+
+/*---------------------------Body---------------------------*/
