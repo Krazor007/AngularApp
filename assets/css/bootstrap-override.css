@@ -1,0 +1,30 @@
+/*----------
+
+This file contains all classes overridden from bootstrap
+
+---------*/
+
+.container{
+	border:1px solid silver !important;
+	height:100% !important;
+}
+
+
+/*---------------------------Menu bar---------------------------*/
+
+.navbar-default{
+	background: inherit !important;
+	border: none !important;
+	font-weight: 700;
+}
+
+.navbar-nav{
+	float: right !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background: inherit !important;
+	color:#218C8D;       /*green1*/
+}
+
+/*---------------------------Menu bar---------------------------*/

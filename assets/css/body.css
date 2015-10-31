@@ -1,0 +1,18 @@
+/*----------
+
+This file contains style for the body
+
+This body is displayed on all the pages
+
+---------*/
+
+.body-outer{
+	width: 100%;
+	min-height:500px;
+	background-color: #eee;    	
+	color:#5f6972;						/*gray3*/
+}
+
+.body-container{	
+	padding: 25px;
+}

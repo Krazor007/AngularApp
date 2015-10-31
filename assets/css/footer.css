@@ -1,0 +1,14 @@
+/*----------
+
+This file contains style for the footer
+
+This footer is displayed on all the pages
+
+---------*/
+
+.footer-outer{
+	width: 100%;
+	min-height:200px;
+	background-color: #2A3744;    	/*gray1*/
+	color:#eee;						/*gray4*/
+}
