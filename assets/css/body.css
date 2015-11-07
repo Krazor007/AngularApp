@@ -16,3 +16,28 @@ This body is displayed on all the pages
 .body-container{	
 	padding: 25px;
 }
+
+
+.page-title{
+	text-align: center;
+	font-size:	18px;
+	font-weight: 700;
+	padding: 5px;
+}
+
+.page-title-border{
+	margin-left: auto;
+	margin-right: auto;	
+	height: 2px;
+	width:70px;
+	border-radius: 2px;
+	content: '';
+	background-color: #1a6f70;
+}
+
+.sub-title{
+	background-color: #1a6f70;
+	font-size: 15px;
+	text-align: left;
+
+}
