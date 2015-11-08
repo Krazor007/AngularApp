@@ -21,3 +21,12 @@ This menubar is displayed on all the pages
 	margin-top: 28px;
 	overflow: hidden;
 }
+
+.logo-text{
+	color: #a3d038;
+    font-size: 27px;
+    float: right;
+    margin-left: 10px;
+    line-height: 43px;
+    font-family: 'segoe ui',sans-serif;
+}

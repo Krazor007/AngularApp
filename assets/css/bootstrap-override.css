@@ -9,6 +9,11 @@ This file contains all classes overridden from bootstrap
 	height:100% !important;
 }
 
+a:hover{
+	text-decoration: none;
+	color:#ccc;
+}
+
 
 /*---------------------------Menu bar---------------------------*/
 
