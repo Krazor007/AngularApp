@@ -45,3 +45,18 @@
 		</div>
 	</div>
 </div>
+<script>
+$(document).ready(function(){
+
+	$(".tab-pane").hide();
+	$(".tab-pane").eq(0).addClass("activated animated fadeIn").show();
+	$(".tab-head").click(function($this){
+        $(".tab-pane").removeClass("activated animated fadeIn").hide();
+        $(".tab-head").removeClass("active");
+        $(".tab-head").eq($(this).index()).addClass("active");
+        $(".tab-pane").eq($(this).index()).addClass("activated animated fadeIn").show();
+	});
+
+});
+
+</script>
