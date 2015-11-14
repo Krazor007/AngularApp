@@ -1,0 +1,30 @@
+.tab-head-container{
+margin-top: 7px;
+}
+
+.tab-head{
+	height: 50px;
+	border: 1px solid red;
+	padding-left: 12px;
+	font-size: 15px;
+	line-height: 50px;
+	margin-bottom: 7px;
+}
+
+.tab-head:hover{
+	cursor: pointer;
+	tranform; rotate(10deg);
+}
+
+.tab-head.active{
+	background-color: #218C8D;
+	color: #dedede;
+}
+
+.tab-pane-conatiner{
+	margin-top: 15px;
+}
+
+.tab-pane{
+
+}
