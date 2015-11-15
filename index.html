@@ -113,14 +113,31 @@
 						</div>
 					</div>
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 publicity-block">
-						<i class="fa fa-facebook-square icon-hov facebook"></i>
-						<i class="fa fa-twitter-square icon-hov twitter"></i>
-						<i class="fa fa-linkedin-square icon-hov linkedin"></i>
+						<div class="media-icons" onclick="goToFacebook()"> <i class="fa fa-facebook-square icon-hov facebook"></i></div>
+						<div class="media-icons" onclick="goToTwitter()"><i class="fa fa-twitter-square icon-hov twitter"></i></div>
+						<div class="media-icons" onclick="goToGooglePlus()"><i class="fa fa-google-plus-square icon-hov googleplus"></i></div>
+						<div class="media-icons" onclick="goToLinkedIn()"><i class="fa fa-linkedin-square icon-hov linkedin"></i></div>
 					</div>
-
 				</div>
 			</div>
 		</div>
+
+<script type="text/javascript">
+	function goToFacebook(){
+		window.open('http://www.facebook.com','_blank');
+	}
+		function goToTwitter(){
+		window.open('http://www.twitter.com','_blank');
+	}
+		function goToLinkedIn(){
+		window.open('http://www.linkedin.com','_blank');
+	}
+	function goToGooglePlus(){
+		window.open('http://plus.google.com/','_blank');
+	}
+	
+</script>
+
 
 		<!--==================================Footer===================================-->
 
